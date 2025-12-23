@@ -16,7 +16,10 @@ SCOPE = [
 
 import os
 
-CREDS_FILE = os.environ.get("GOOGLE_APPLICATION_CREDENTIALS")
+CREDS_FILE = os.environ.get(
+    "GOOGLE_APPLICATION_CREDENTIALS",
+    "exalted-analogy-474301-m7-7b01604927b9.json"
+)
 SPREADSHEET_NAME = "Resultados Quiz"
 
 creds = ServiceAccountCredentials.from_json_keyfile_name(CREDS_FILE, SCOPE)

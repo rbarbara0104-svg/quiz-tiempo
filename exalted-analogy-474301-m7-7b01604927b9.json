@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "exalted-analogy-474301-m7",
+  "private_key_id": "7b01604927b95c3962142bc938bc377fc7094b93",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDtOnme0fE9bRPX\nc8a3k8PbEsreWGO8+7omCm5QNFOj2ms3dwT8BJSU2ykoVH8EWg/ICpJlvpHtSHI8\nIXXT7BqPy9ZH1RUjOmAoXYLzzGjhRIjbz1C7Ut1lVWx9+3bV74qDtR9c4xIHdRF9\niOPV0zIu/LGUzKJkxS29Ly5KJ8KXJ1aVP+gzifh4N8zVZxyQBQUy7/9PfZ3EzXMG\nW2NwJazSvUq1X0WDQzoSfh8m6NZc0+Yq1e7jRxgHhe4FBrCo7M9t1Ga6f/6afe72\nY3nQZWVFJMLl3Y542sEb61GY6xtGmHh20YysUra7lvDwNrT+QzObEXBtn7SqEMXi\nmIhNtwpTAgMBAAECggEASbJSSRAQgRQrR1H8yFf7zslyQ4uzBGkxRZMU/Q6cczkt\n+K+dWUt0+x9wlEpXoTr3Tx5Vp40B2XSZpGuCpsDg6Y4Z9fvQ0r5WVAPk5Cc658x6\nNcscWe1ewRW+HA8sNj7xyYPRh/I0ziNEuTp3CRzQqL8wzbiatHJ7CJwpJblfXsQt\nH0UeuVZwwTdc7XTgh7IihbXSC564QGkN3XIUBViqZ/M2lMn+aIRZ9aRdg9+iQjN+\nImkn65U27q6Np1e1TPHdN48w/g4hBMkSNmQjiFqRE4A9ojJCXZVUC05hhYdLsF61\n/NTiHvj8XCih0cQraTrObdkj3SKUJvSYcxwdcKsnhQKBgQD72PRl3vWLs/n+11uT\n7To4HiqFyy5Br2NbR61BPAUsg2MfROr/LqLe8iGijbJs0qjhgl2iIyDaf30SySnF\nl/f3RwpZW7N1R+vpiePDcy4Jef53hIdfiGVAi9TNhmW1dkHvQKYWOOtQ2eapIlBJ\nszK/1/MPAKby+r2cem4++AiHRwKBgQDxI9BCTeAzaItPEqZlI325448NH6IREmlk\nNQ1p03MVfhaVidvmlfn1XYEk6SsrYd8eDwndWS+FD05BFzfDcZXdXuVBYSYWX0zo\nh39BHjz64pCMmJG4az3SsCipjniuxBecfKrc5i2I3FA1kSfB8RnZaIdOyzoczt6v\nENTvAyBClQKBgHsY6zRTy08SlDIUz2U5gchmLkChNCXU9UpreWq2TI0aVzu0cuxx\nvhgc34XVno2EVhmLn/qdEvTZdafV/X3gLsqFxbAxm0DK+6t1w4cH6EunflKqy4RN\nZbgr4MLoWxRcDhREVCnufk5Rg2XOKNItLbQJeHsvxWpkVoOCcBqFH54HAoGAWcVp\nbKWtR7Yt1pws0g4qah+rS8lw/kYKckHF4pXTjDbKlZUjBm7jBVNwFpuvdJEVDQ2w\nMHVZWYHfMiBApEQO9MC1PGe8VCvaZ965ozZsoUHjalQKO8vA0kS+fpEJoJZj6+AF\nhAM1BHRwb+DAGlV1uBhP9yd1VPA2upnbi7dwNRkCgYEAvAsqLQUAcKhTOMu51xJJ\nH6VElY7TKZmquP8HZ33u85Q17VoynBjAoCTA1rvn5TAGE917YXiAL2RW3bHOLkAC\nBRSZMi7tNvsgoqpTgAWQNVAeIBy8Jt7koKSylz0Xd6RtylZgiXfsmEPCxB+ZW+ER\n2eA0Pisp6OLUscPl+9GHArc=\n-----END PRIVATE KEY-----\n",
+  "client_email": "quiz-bot@exalted-analogy-474301-m7.iam.gserviceaccount.com",
+  "client_id": "114903330788528175194",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/quiz-bot%40exalted-analogy-474301-m7.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
