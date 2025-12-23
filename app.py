@@ -2,6 +2,8 @@ from flask import Flask, render_template, request
 import time
 import random
 import gspread
+import json
+import os
 from oauth2client.service_account import ServiceAccountCredentials
 
 app = Flask(__name__)
@@ -14,15 +16,21 @@ SCOPE = [
     "https://www.googleapis.com/auth/drive"
 ]
 
-import os
-
-CREDS_FILE = os.environ.get(
-    "GOOGLE_APPLICATION_CREDENTIALS",
-    "exalted-analogy-474301-m7-7b01604927b9.json"
-)
 SPREADSHEET_NAME = "Resultados Quiz"
 
-creds = ServiceAccountCredentials.from_json_keyfile_name(CREDS_FILE, SCOPE)
+creds_json = os.environ.get("GOOGLE_APPLICATION_CREDENTIALS_JSON")
+
+if not creds_json:
+    raise RuntimeError(
+        "No se encontró la variable GOOGLE_APPLICATION_CREDENTIALS_JSON"
+    )
+
+creds_dict = json.loads(creds_json)
+creds = ServiceAccountCredentials.from_json_keyfile_dict(
+    creds_dict,
+    SCOPE
+)
+
 client = gspread.authorize(creds)
 sheet = client.open(SPREADSHEET_NAME).sheet1
 
@@ -84,3 +92,4 @@ def submit():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
+
